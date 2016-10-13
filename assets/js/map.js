@@ -13,7 +13,7 @@ $(document).ready(function() {
 var eventBus = _.extend({}, Backbone.Events)
 
 var initializeMap = function initializeMap() {
-    L.mapbox.accessToken = 'pk.eyJ1Ijoiam1jZWxyb3kiLCJhIjoiVVg5eHZldyJ9.FFzKtamuKHb_8_b_6fAOFg';
+    L.mapbox.accessToken = 'pk.eyJ1Ijoia2FzaDEyMTUiLCJhIjoiY2l1OHJjM3EwMDAycDJ5dHFweW5pMGg3OCJ9.fNlHHJ3xCe9xWHfrWkT5bA';
     map = L.mapbox.map('map-container', 'mapbox.light', {
         zoomControl: false,
         legendControl: {
